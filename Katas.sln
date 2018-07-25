@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas", "Katas\Katas.csproj", "{610FF851-FEF2-470A-88F8-8F0D51D3AAED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.Tests", "Katas.Tests\Katas.Tests.csproj", "{43E643B2-E43C-451A-A384-CDEAFEA8659A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{610FF851-FEF2-470A-88F8-8F0D51D3AAED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{610FF851-FEF2-470A-88F8-8F0D51D3AAED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{610FF851-FEF2-470A-88F8-8F0D51D3AAED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43E643B2-E43C-451A-A384-CDEAFEA8659A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43E643B2-E43C-451A-A384-CDEAFEA8659A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43E643B2-E43C-451A-A384-CDEAFEA8659A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43E643B2-E43C-451A-A384-CDEAFEA8659A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
