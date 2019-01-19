@@ -8,7 +8,6 @@ namespace Katas
         {
             Console.WriteLine(FizzBuzz.Print(10));
 
-
             Func<int, string>[] triggers = {
                 (int i) => { return i % 3 == 0 ? "Fizz" : ""; },
                 (int i) => { return i % 5 == 0 ? "Buzz" : ""; },

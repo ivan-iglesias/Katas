@@ -10,6 +10,8 @@ namespace Katas
          */
         public static string Print(int Number)
         {
+            ThrowExceptionWhenNumberNotValid(Number);
+
             string response = "";
 
             for (int i = 1; i <= Number; i++)
@@ -34,6 +36,8 @@ namespace Katas
          */
         public static string Print(int Number, Func<int, string> [] Triggers)
         {
+            ThrowExceptionWhenNumberNotValid(Number);
+
             string response = "";
 
             for (int i = 1; i <= Number; i++)
@@ -46,6 +50,18 @@ namespace Katas
             }
 
             return response.TrimEnd();
+        }
+
+
+        /**
+         * Genero una excepcion cuando se introduce un valor no valido.
+         */
+        private static void ThrowExceptionWhenNumberNotValid(int Number)
+        {
+            if (Number > 100 || Number < 1)
+                throw new ArgumentException(
+                    $"Entered number '{Number}' does not meet rule, it should be between 1 and 100."
+                );
         }
 
     }
