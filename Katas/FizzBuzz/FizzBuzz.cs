@@ -8,7 +8,7 @@ namespace Katas
         /**
          * Fizz Buzz mediante condicionales.
          */
-        public static string Print(int Number)
+        public static string Of(int Number)
         {
             ThrowExceptionWhenNumberNotValid(Number);
 
@@ -34,7 +34,7 @@ namespace Katas
          * Fizz Buzz usando delegados genericos tipo Func, los cuales se pasasan
          * mediante argumento para poder escalarlo con nuevas condiciones.
          */
-        public static string Print(int Number, Func<int, string> [] Triggers)
+        public static string Of(int Number, Func<int, string> [] Triggers)
         {
             ThrowExceptionWhenNumberNotValid(Number);
 
